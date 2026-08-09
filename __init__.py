@@ -1,0 +1,1 @@
+# Houdini essentials plugin package
