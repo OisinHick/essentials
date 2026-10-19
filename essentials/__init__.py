@@ -51,4 +51,4 @@ class Essentials(IPlugin):
     @commands.command('ac')
     @permissions.has_or_moderator('essentials.ac')
     async def add_coins(self, p, amount: int = 100):
-        await p.add_coins(amount, stay=True)
+        await p.add_coins(amount)
